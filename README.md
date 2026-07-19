@@ -41,8 +41,14 @@ npm install json-server
 11. We added created `pages` folder with `Home`, `Video` components
 12. In the `pages/Video` component, we are calling the video related components
 
-# In this commit, Setup Routing - react-router-dom
+# Setup Routing - react-router-dom
 
 1. Set the react `router` dom
 2. `Footer` and `Navbar` component in `App` compoents `router` level
 3. Use manual linkup with `Link` in the VideoGridItem to hit the URL and reroute to new page
+
+# In this commit, We Create videos slice & videos API to fetch data
+
+1. Creating a `videoSlice` with extraReducers and 3 kind of state of an async thunk action
+2. fetching dynamic data with `AXIOS` package from the `utils`
+3. Update the store
