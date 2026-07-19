@@ -1,16 +1,27 @@
-# React + Vite
+# In this commit we are setting our server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. We have the MOCK server folder in our root that will be our Backend data server which will serve us the API
+2. Do this in the server folder
 
-Currently, two official plugins are available:
+```
+cd server
+npm install json-server
+npm start
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+JSON server API
 
-## React Compiler
+```
+Resources
+http://localhost:9000/videos
+http://localhost:9000/tags
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Home
+http://localhost:9000
+```
 
-## Expanding the ESLint configuration
+3. Do this in the root folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+npm install json-server
+```
