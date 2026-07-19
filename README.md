@@ -47,8 +47,14 @@ npm install json-server
 2. `Footer` and `Navbar` component in `App` compoents `router` level
 3. Use manual linkup with `Link` in the VideoGridItem to hit the URL and reroute to new page
 
-# In this commit, We Create videos slice & videos API to fetch data
+# We Create videos slice & videos API to fetch data
 
 1. Creating a `videoSlice` with extraReducers and 3 kind of state of an async thunk action
 2. fetching dynamic data with `AXIOS` package from the `utils`
 3. Update the store
+
+# In this commit,
+
+1. Calling the async `fetchVideos` in the dispatch of `VideosGrid` to get the data from server
+2. Updated `VideoGrid`, we are getting the video states when `dispatch` is being called with `useEffect`. We set the upcoming movie records depends on the `loading/error/videos` situation and set the `content` dynamically
+3. `VideoGridItem` components is `destructuring` the video object value and all of them has been dynamically updated in the UI component

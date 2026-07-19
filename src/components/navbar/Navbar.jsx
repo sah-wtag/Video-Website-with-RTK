@@ -1,6 +1,6 @@
-import Search from "./Search";
 import logoImage from "../../assets/lws.svg";
 import searchImage from "../../assets/search.svg";
+import Search from "./Search";
 
 export default function Navbar() {
   return (

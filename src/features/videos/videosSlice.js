@@ -8,17 +8,15 @@ const initialState = {
   error: "",
 };
 
-// Async Thunk
+// async thunk
 export const fetchVideos = createAsyncThunk("videos/fetchVideos", async () => {
   const videos = await getVideos();
-
   return videos;
 });
 
 const videoSlice = createSlice({
   name: "videos",
-  initialState: initialState,
-  reducers: {},
+  initialState,
   extraReducers: (builder) => {
     builder
       .addCase(fetchVideos.pending, (state) => {

@@ -1,5 +1,5 @@
 import Tags from "../components/tags/Tags";
-import VideoGrid from "../components/grid/VideoGridItem";
+import VideoGrid from "../components/grid/VideoGrid";
 import Pagination from "../components/ui/Pagination";
 
 export default function Home() {
