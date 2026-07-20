@@ -53,8 +53,13 @@ npm install json-server
 2. fetching dynamic data with `AXIOS` package from the `utils`
 3. Update the store
 
-# In this commit,
+# UI integration and dispatch actions
 
 1. Calling the async `fetchVideos` in the dispatch of `VideosGrid` to get the data from server
 2. Updated `VideoGrid`, we are getting the video states when `dispatch` is being called with `useEffect`. We set the upcoming movie records depends on the `loading/error/videos` situation and set the `content` dynamically
 3. `VideoGridItem` components is `destructuring` the video object value and all of them has been dynamically updated in the UI component
+
+# In this commit, Create Tags slice and tags API
+
+1. Created the `tagsSlice` and `tagsAPI` to fetch the data `Asynchronouly`
+2. Fetching the server data with `tagsAPI`
