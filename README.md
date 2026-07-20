@@ -70,9 +70,17 @@ npm install json-server
 2. Updated the `Tag` component and it will recieve `title`
 3. `tags` recducer added into the `store`
 
-# In this commit, Slice, API & UI Integration
+# Slice, API & UI Integration - Part 1
+
 1. We build `videoSlice` and `videoAPI` to create the `Async Thunk` middleware for single video loading independently
 2. Added the reducer in the `Redux Store`
-3. In Video component, we are `dispatching` the videoId in to the `fetchVideo`(in the videoSlic thunk) and getting the video with several states. We created `conditional UI rendering` depends on the video status.
+3. In Video component, we are `dispatching` the videoId in to the `fetchVideo`(in the videoSlice thunk) and getting the video with several states. We created `conditional UI rendering` depends on the video status.
 4. We are passing `title` and `link` to `VideoPlayer` component and updated that component for the dynamic values
 5. We are passing `video object` to `VideoDescription` component and updated that component for the dynamic values
+
+# In this commit, Slice, API & UI Integration - Part 2
+
+1. We build `relatedVideosSlice` and `relatedVideosAPI` to create the `Async Thunk` middleware for related videos loading independently without the video showcasing.
+2. Added the `relatedVideosReducer` in the `Redux Store`
+3. In RelatedVideoList component, we are `dispatching` the `id` & `tags` in to the `fetchRelatedVideos`(in the relatedVideosSlice thunk) and getting the video with several states. We created `conditional UI rendering` depends on the video status.
+4. We are passing `video object` to `RelatedVideoListItem` component and updated that component for the dynamic values

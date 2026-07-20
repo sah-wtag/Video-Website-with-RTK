@@ -18,7 +18,6 @@ export default function Video() {
     dispatch(fetchVideo(videoId));
   }, [dispatch, videoId]);
 
-  console.log(`video`, video);
   const { id, link, title, tags } = video || {};
 
   // Decide what to render
@@ -42,7 +41,7 @@ export default function Video() {
       </div>
     );
   }
-  
+
   return (
     <>
       <section className="pt-6 pb-20">
