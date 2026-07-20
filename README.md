@@ -64,8 +64,15 @@ npm install json-server
 1. Created the `tagsSlice` and `tagsAPI` to fetch the data `Asynchronouly`
 2. Fetching the server data with `tagsAPI`
 
-# In this commit, Fetch Tags from BackEnd and then UI Integration
+# Fetch Tags from BackEnd and then UI Integration
 
 1. `Dispatch` has been added into `Tags` component with `useEffect` to fetch all the tags from server
 2. Updated the `Tag` component and it will recieve `title`
 3. `tags` recducer added into the `store`
+
+# In this commit, Slice, API & UI Integration
+1. We build `videoSlice` and `videoAPI` to create the `Async Thunk` middleware for single video loading independently
+2. Added the reducer in the `Redux Store`
+3. In Video component, we are `dispatching` the videoId in to the `fetchVideo`(in the videoSlic thunk) and getting the video with several states. We created `conditional UI rendering` depends on the video status.
+4. We are passing `title` and `link` to `VideoPlayer` component and updated that component for the dynamic values
+5. We are passing `video object` to `VideoDescription` component and updated that component for the dynamic values
