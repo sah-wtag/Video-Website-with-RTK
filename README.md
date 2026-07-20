@@ -59,7 +59,13 @@ npm install json-server
 2. Updated `VideoGrid`, we are getting the video states when `dispatch` is being called with `useEffect`. We set the upcoming movie records depends on the `loading/error/videos` situation and set the `content` dynamically
 3. `VideoGridItem` components is `destructuring` the video object value and all of them has been dynamically updated in the UI component
 
-# In this commit, Create Tags slice and tags API
+# Create Tags slice and tags API
 
 1. Created the `tagsSlice` and `tagsAPI` to fetch the data `Asynchronouly`
 2. Fetching the server data with `tagsAPI`
+
+# In this commit, Fetch Tags from BackEnd and then UI Integration
+
+1. `Dispatch` has been added into `Tags` component with `useEffect` to fetch all the tags from server
+2. Updated the `Tag` component and it will recieve `title`
+3. `tags` recducer added into the `store`
