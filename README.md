@@ -78,9 +78,19 @@ npm install json-server
 4. We are passing `title` and `link` to `VideoPlayer` component and updated that component for the dynamic values
 5. We are passing `video object` to `VideoDescription` component and updated that component for the dynamic values
 
-# In this commit, Slice, API & UI Integration - Part 2
+# Slice, API & UI Integration - Part 2
 
 1. We build `relatedVideosSlice` and `relatedVideosAPI` to create the `Async Thunk` middleware for related videos loading independently without the video showcasing.
 2. Added the `relatedVideosReducer` in the `Redux Store`
 3. In RelatedVideoList component, we are `dispatching` the `id` & `tags` in to the `fetchRelatedVideos`(in the relatedVideosSlice thunk) and getting the video with several states. We created `conditional UI rendering` depends on the video status.
 4. We are passing `video object` to `RelatedVideoListItem` component and updated that component for the dynamic values
+
+# In this commit, Filters and Search state level implementation
+
+0. This is a state change commit, the Search/Filtering results will be implemented in next
+1. We build `filterSlice` to create the Syncronous Reducers for select/unselect the tags directly for filter purpose
+2. Updated the `Tag` component, we are calling the `dispatch` actions depending on the selected status of the tags. If selected we call `tagRemoved`, nor `tagSeclected` action is being called and the styling is also dynamic of the tags upon selected status.
+3. We updated the store with a new object `filter`
+4. In the `Search` component, we are updating the `search` state of `filter` . We take the input from form and dispatching `searched` actions to update the `search` state.
+5. Search component's search button has been fixed and working now with the input
+
