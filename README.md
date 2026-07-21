@@ -94,10 +94,13 @@ npm install json-server
 4. In the `Search` component, we are updating the `search` state of `filter` . We take the input from form and dispatching `searched` actions to update the `search` state.
 5. Search component's search button has been fixed and working now with the input
 
-# In this commit, Filters and Search features UI implementation
+# Filters and Search features UI implementation
 
 1. `videosAPI` consume tags and search value to filter out the videos if `filtering/searching` is going on through the `fetchVideos` constant of `videosSlice` reducer
 2. `VideoGrid` component now can `dispatch` `tags &s search` values also to get the `filterred/searched` results
 3. `search` option workable into the single video page into `Search` component
 4. In the single video page, searching will redirect us to the home.
 
+# In this commit, Polishing the codebase
+1. We are changing the footer, navbar detailing with linkup
+2. Updated the JSON file

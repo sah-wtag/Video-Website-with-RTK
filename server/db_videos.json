@@ -1,151 +1,242 @@
 {
-    "videos": [
-        {
-            "id": 1,
-            "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
-            "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "May 10, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-            "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
-            "tags": ["javascript", "react", "tips"],
-            "likes": 0,
-            "unlikes": 0
-        },
-        {
-            "id": 2,
-            "title": "VS Code Snippets - Boost your productivity with User Snippets",
-            "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "April 25, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-            "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
-            "tags": ["vscode", "tips"],
-            "likes": 0,
-            "unlikes": 0
-        },
-        {
-            "id": 3,
-            "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
-            "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "March 11, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
-            "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
-            "tags": ["tailwind", "css"],
-            "likes": 0,
-            "unlikes": 0
-        },
-        {
-            "id": 4,
-            "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
-            "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "Jan 06, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
-            "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
-            "tags": ["debounce", "javascript", "tips"],
-            "likes": 0,
-            "unlikes": 0
-        },
-        {
-            "id": 5,
-            "title": "SASS Tutorial in English - Overview of SASS",
-            "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "Nov 22, 2021",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-            "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
-            "tags": ["sass", "css", "ui"],
-            "likes": 0,
-            "unlikes": 0
-        },
-        {
-            "id": 6,
-            "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
-            "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "Nov 08, 2021",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
-            "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg",
-            "tags": ["react", "router", "javascript"],
-            "likes": 0,
-            "unlikes": 0
-        },
-        {
-            "id": 7,
-            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
-            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "Oct 15, 2021",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
-            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
-            "tags": ["tailwind", "css", "ui"],
-            "likes": 0,
-            "unlikes": 0
-        }
-    ],
-    "tags": [
-        {
-            "id": 1,
-            "title": "javascript"
-        },
-        {
-            "id": 2,
-            "title": "react"
-        },
-        {
-            "id": 3,
-            "title": "tips"
-        },
-        {
-            "id": 4,
-            "title": "vscode"
-        },
-        {
-            "id": 5,
-            "title": "tailwind"
-        },
-        {
-            "id": 6,
-            "title": "css"
-        },
-        {
-            "id": 7,
-            "title": "debounce"
-        },
-        {
-            "id": 8,
-            "title": "sass"
-        },
-        {
-            "id": 9,
-            "title": "ui"
-        },
-        {
-            "id": 10,
-            "title": "router"
-        }
-    ]
+  "videos": [
+    {
+      "id": 1,
+      "title": "JavaScript Array Methods Every Developer Should Know",
+      "description": "Master the most commonly used JavaScript array methods including map, filter, reduce, find, some, every and more with practical examples.",
+      "author": "Code Academy",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "date": "June 15, 2025",
+      "duration": "18:42",
+      "views": "1.4M",
+      "link": "https://www.youtube-nocookie.com/embed/R8rmfD9Y5-c",
+      "thumbnail": "https://i3.ytimg.com/vi/R8rmfD9Y5-c/maxresdefault.jpg",
+      "tags": ["javascript", "tips"],
+      "likes": 18452,
+      "unlikes": 142
+    },
+    {
+      "id": 2,
+      "title": "Build a Modern React App from Scratch",
+      "description": "Learn React fundamentals by building a complete project using components, props, state, hooks and routing.",
+      "author": "React Mastery",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "date": "May 30, 2025",
+      "duration": "42:15",
+      "views": "845K",
+      "link": "https://www.youtube-nocookie.com/embed/bMknfKXIFA8",
+      "thumbnail": "https://i3.ytimg.com/vi/bMknfKXIFA8/maxresdefault.jpg",
+      "tags": ["react", "javascript"],
+      "likes": 27481,
+      "unlikes": 193
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS Crash Course",
+      "description": "Build beautiful responsive interfaces faster with Tailwind CSS utility classes.",
+      "author": "Traversy Media",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "date": "April 12, 2025",
+      "duration": "31:09",
+      "views": "613K",
+      "link": "https://www.youtube-nocookie.com/embed/UBOj6rqRUME",
+      "thumbnail": "https://i3.ytimg.com/vi/UBOj6rqRUME/maxresdefault.jpg",
+      "tags": ["tailwind", "css"],
+      "likes": 12312,
+      "unlikes": 88
+    },
+    {
+      "id": 4,
+      "title": "Understanding Debounce & Throttle in JavaScript",
+      "description": "Learn how debounce and throttle work internally and when to use them during frontend interviews.",
+      "author": "Web Dev Simplified",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "date": "March 25, 2025",
+      "duration": "14:36",
+      "views": "389K",
+      "link": "https://www.youtube-nocookie.com/embed/cjIswDCKgu0",
+      "thumbnail": "https://i3.ytimg.com/vi/cjIswDCKgu0/maxresdefault.jpg",
+      "tags": ["debounce", "javascript", "tips"],
+      "likes": 9824,
+      "unlikes": 61
+    },
+    {
+      "id": 5,
+      "title": "Learn SASS in 20 Minutes",
+      "description": "A quick introduction to Sass including variables, nesting, mixins and more.",
+      "author": "Web Dev Simplified",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "date": "February 10, 2025",
+      "duration": "20:34",
+      "views": "824K",
+      "link": "https://www.youtube-nocookie.com/embed/_a5j7KoflTs",
+      "thumbnail": "https://i3.ytimg.com/vi/_a5j7KoflTs/maxresdefault.jpg",
+      "tags": ["sass", "css", "ui"],
+      "likes": 23145,
+      "unlikes": 78
+    },
+    {
+      "id": 6,
+      "title": "React Router v6 Complete Guide",
+      "description": "Understand nested routes, dynamic routes, loaders, navigation and layouts with React Router v6.",
+      "author": "Programming with Mosh",
+      "avatar": "https://i.pravatar.cc/150?img=6",
+      "date": "January 29, 2025",
+      "duration": "36:58",
+      "views": "972K",
+      "link": "https://www.youtube-nocookie.com/embed/Ul3y1LXxzdU",
+      "thumbnail": "https://i3.ytimg.com/vi/Ul3y1LXxzdU/maxresdefault.jpg",
+      "tags": ["react", "router", "javascript"],
+      "likes": 21973,
+      "unlikes": 102
+    },
+    {
+      "id": 7,
+      "title": "VS Code Tips & Extensions for Developers",
+      "description": "Boost your productivity with the best VS Code extensions, shortcuts and hidden features.",
+      "author": "Fireship",
+      "avatar": "https://i.pravatar.cc/150?img=7",
+      "date": "December 21, 2024",
+      "duration": "12:05",
+      "views": "2.8M",
+      "link": "https://www.youtube-nocookie.com/embed/ifTF3ags0XI",
+      "thumbnail": "https://i3.ytimg.com/vi/ifTF3ags0XI/maxresdefault.jpg",
+      "tags": ["vscode", "tips"],
+      "likes": 45128,
+      "unlikes": 204
+    },
+    {
+      "id": 8,
+      "title": "Build a Responsive Landing Page with HTML & CSS",
+      "description": "Create a modern responsive landing page from scratch using semantic HTML and modern CSS.",
+      "author": "Kevin Powell",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "date": "November 15, 2024",
+      "duration": "48:14",
+      "views": "731K",
+      "link": "https://www.youtube-nocookie.com/embed/gYzHS-n2gqU",
+      "thumbnail": "https://i3.ytimg.com/vi/gYzHS-n2gqU/maxresdefault.jpg",
+      "tags": ["css", "ui"],
+      "likes": 16822,
+      "unlikes": 97
+    },
+
+    {
+      "id": 9,
+      "title": "React Router Tutorial",
+      "description": "Learn routing in React applications using React Router.",
+      "author": "The Net Ninja",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "date": "January 18, 2025",
+      "duration": "24:51",
+      "views": "691K",
+      "link": "https://www.youtube-nocookie.com/embed/Law7wfdg_ls",
+      "thumbnail": "https://i3.ytimg.com/vi/Law7wfdg_ls/maxresdefault.jpg",
+      "tags": ["react", "router", "javascript"],
+      "likes": 19231,
+      "unlikes": 64
+    },
+    {
+      "id": 10,
+      "title": "VS Code Tips You Should Know",
+      "description": "Boost your coding productivity with these Visual Studio Code tips.",
+      "author": "Fireship",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "date": "December 15, 2024",
+      "duration": "11:54",
+      "views": "1.9M",
+      "link": "https://www.youtube-nocookie.com/embed/ifTF3ags0XI",
+      "thumbnail": "https://i3.ytimg.com/vi/ifTF3ags0XI/maxresdefault.jpg",
+      "tags": ["vscode", "tips"],
+      "likes": 51231,
+      "unlikes": 201
+    },
+    {
+      "id": 11,
+      "title": "CSS Flexbox in 20 Minutes",
+      "description": "Learn CSS Flexbox with easy examples.",
+      "author": "Web Dev Simplified",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "date": "November 2, 2024",
+      "duration": "20:06",
+      "views": "2.4M",
+      "link": "https://www.youtube-nocookie.com/embed/fYq5PXgSsbE",
+      "thumbnail": "https://i3.ytimg.com/vi/fYq5PXgSsbE/maxresdefault.jpg",
+      "tags": ["css", "ui"],
+      "likes": 76321,
+      "unlikes": 192
+    },
+    {
+      "id": 12,
+      "title": "Tailwind CSS Crash Course",
+      "description": "Build responsive websites rapidly with Tailwind CSS.",
+      "author": "Traversy Media",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "date": "October 12, 2024",
+      "duration": "34:17",
+      "views": "1.2M",
+      "link": "https://www.youtube-nocookie.com/embed/dFgzHOX84xQ",
+      "thumbnail": "https://i3.ytimg.com/vi/dFgzHOX84xQ/maxresdefault.jpg",
+      "tags": ["tailwind", "css"],
+      "likes": 35241,
+      "unlikes": 105
+    },
+    {
+      "id": 13,
+      "title": "JavaScript ES6 Features",
+      "description": "Everything you need to know about modern JavaScript ES6 syntax.",
+      "author": "Programming with Mosh",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "date": "September 28, 2024",
+      "duration": "27:11",
+      "views": "3.1M",
+      "link": "https://www.youtube-nocookie.com/embed/NCwa_xi0Uuc",
+      "thumbnail": "https://i3.ytimg.com/vi/NCwa_xi0Uuc/maxresdefault.jpg",
+      "tags": ["javascript", "tips"],
+      "likes": 82142,
+      "unlikes": 291
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "title": "javascript"
+    },
+    {
+      "id": 2,
+      "title": "react"
+    },
+    {
+      "id": 3,
+      "title": "tips"
+    },
+    {
+      "id": 4,
+      "title": "vscode"
+    },
+    {
+      "id": 5,
+      "title": "tailwind"
+    },
+    {
+      "id": 6,
+      "title": "css"
+    },
+    {
+      "id": 7,
+      "title": "debounce"
+    },
+    {
+      "id": 8,
+      "title": "sass"
+    },
+    {
+      "id": 9,
+      "title": "ui"
+    },
+    {
+      "id": 10,
+      "title": "router"
+    }
+  ]
 }
