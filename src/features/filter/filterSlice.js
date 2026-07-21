@@ -19,7 +19,6 @@ const filterSlice = createSlice({
       }
     },
     searched: (state, action) => {
-      console.log("Actioning", state, action);
       state.search = action.payload;
     },
   },

@@ -85,7 +85,7 @@ npm install json-server
 3. In RelatedVideoList component, we are `dispatching` the `id` & `tags` in to the `fetchRelatedVideos`(in the relatedVideosSlice thunk) and getting the video with several states. We created `conditional UI rendering` depends on the video status.
 4. We are passing `video object` to `RelatedVideoListItem` component and updated that component for the dynamic values
 
-# In this commit, Filters and Search state level implementation
+# Filters and Search state level implementation
 
 0. This is a state change commit, the Search/Filtering results will be implemented in next
 1. We build `filterSlice` to create the Syncronous Reducers for select/unselect the tags directly for filter purpose
@@ -93,4 +93,11 @@ npm install json-server
 3. We updated the store with a new object `filter`
 4. In the `Search` component, we are updating the `search` state of `filter` . We take the input from form and dispatching `searched` actions to update the `search` state.
 5. Search component's search button has been fixed and working now with the input
+
+# In this commit, Filters and Search features UI implementation
+
+1. `videosAPI` consume tags and search value to filter out the videos if `filtering/searching` is going on through the `fetchVideos` constant of `videosSlice` reducer
+2. `VideoGrid` component now can `dispatch` `tags &s search` values also to get the `filterred/searched` results
+3. `search` option workable into the single video page into `Search` component
+4. In the single video page, searching will redirect us to the home.
 
