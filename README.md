@@ -1,7 +1,3 @@
-# Project Preview in Google Drive Video
-https://drive.google.com/file/d/1YwP_hkKBYQp5kUZiOXUZz-MLQj4oH9oY/view?usp=sharing
-
-
 # We are setting our server
 
 1. We have the MOCK server folder in our root that will be our Backend data server which will serve us the API
