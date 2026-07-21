@@ -1,55 +1,36 @@
-# lws-json-server-todos
+# Sadman Server Videoes and Tags
 
-Example in memory todos api with json-server by Learn with Sumit
+Example in memory Videoes and Tags api with json-server by Sadman
 
 # Installation
 
 ```bash
-git clone git@github.com:learnwithsumit/lws-json-server-todos.git
-cd lws-json-server-todos
+git clone git@github.com:sah-wtag/Video-Website-with-RTK.git
+cd server
 npm install json-server
 npm start
 ```
 
 Now opens:
 
-- http://localhost:3000
+- http://localhost:9000
 
-You now have a full REST API. Test with POSTMAN or any other REST Client):
+You now have a REST API set of GET request. Test with POSTMAN or any other REST Client):
 
-Retrieve all (GET):
-
-```bash
-GET http://localhost:3000/todos
-```
-
-Retrieve one (GET):
+Retrieve all videos (GET):
 
 ```bash
-GET http://localhost:3000/todos/1
+GET http://localhost:9000/videos
 ```
 
-Post a todo (POST):
+Retrieve all tags (GET):
 
 ```bash
-POST http://localhost:3000/todos text="Learn Redux" completed=false color="red"
+GET http://localhost:9000/tags
 ```
-
-Update todo (PUT):
-
-```bash
-PUT http://localhost:3000/todos/3 name="Learn Redux with Learn with Sumit" completed=true color="green"
-```
-
-Delete todo (DELETE):
-
-```bash
-DELETE http://localhost:3000/todos/1
-```
-
 
 # Links
 
 - https://github.com/typicode/json-server
 - Jswon view Chrome plugin: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
-- Learn with Sumit official website: htts://learnwithsumit.com
+
