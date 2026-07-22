@@ -24,9 +24,7 @@ export const getVideos = async ({ tags, search, page }) => {
     };
   }
 
-  // ============================
   // MockAPI
-  // ============================
 
   const response = await axiosInstance.get("/videos");
 
