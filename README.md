@@ -101,6 +101,16 @@ npm install json-server
 3. `search` option workable into the single video page into `Search` component
 4. In the single video page, searching will redirect us to the home.
 
-# In this commit, Polishing the codebase
+# Polishing the codebase
+
 1. We are changing the footer, navbar detailing with linkup
 2. Updated the JSON file
+
+# In this commit, Pagination Implemented
+
+1. In `filterSlice.js`, we have added `page` attribute to `filter` the values for `pagination`
+2. In `videosSlice`, we are sending the `page` attribute also now as `filtering` and getting `videos` and `totalCount` of the returning data from `videosAPI` by filtering logics
+3. Async thunk `fetchVideos.fulfilled` logic also been updated as returning state is changed now
+4. `Navbar` logic updated thus returning to home is working fine
+5. `Pagination` component has been rewritten totally
+6. `PAGE_SIZE=4` constant introduced
