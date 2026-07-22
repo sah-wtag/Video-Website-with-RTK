@@ -102,11 +102,10 @@ npm install json-server
 4. In the single video page, searching will redirect us to the home.
 
 # Polishing the codebase
-
 1. We are changing the footer, navbar detailing with linkup
 2. Updated the JSON file
 
-# In this commit, Pagination Implemented
+# Pagination Implemented
 
 1. In `filterSlice.js`, we have added `page` attribute to `filter` the values for `pagination`
 2. In `videosSlice`, we are sending the `page` attribute also now as `filtering` and getting `videos` and `totalCount` of the returning data from `videosAPI` by filtering logics
@@ -114,3 +113,18 @@ npm install json-server
 4. `Navbar` logic updated thus returning to home is working fine
 5. `Pagination` component has been rewritten totally
 6. `PAGE_SIZE=4` constant introduced
+
+# In this commit, we have updated the codebase 
+1. we have mocked our API responses in this server https://mockapi.io/
+2. We have created this 2 endpoint for this case with the jsons provided already in our db_videos.json
+```
+https://6a605e27b1933e9d25fd2150.mockapi.io/api/v1/tags
+https://6a605e27b1933e9d25fd2150.mockapi.io/api/v1/videos
+```
+3. We have updated `axios.js` to fetch the `baseURL` dynamically, so when we are in localhost, we have to follow the json server starting commands and when it is not local, it will set the URL to the mock server. We set the rules in `isLocal.js`.
+4. `relatedVideosAPI` and `videosAPI` has been optimized for the `isLocal` situation. 
+5. We wrote new logic when code hitting the `actual mock server` as the `relatedVideosAPI` and `videosAPI` had `fitlering logic` for `json-server` format. 
+6. `MockAPI` is not `json-server`, and it doesn't support all of json-server's `query` parameters. So we have to write logics for the MockAPI also thus filtering and searching works fine.
+
+1. We are changing the footer, navbar detailing with linkup
+2. Updated the JSON file
