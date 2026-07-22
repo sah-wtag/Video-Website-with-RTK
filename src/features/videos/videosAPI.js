@@ -1,6 +1,7 @@
 import axiosInstance from "../../utils/axios";
+import PAGE_SIZE from "../../utils/page_size";
 
-export const getVideos = async ({ tags, search }) => {
+export const getVideos = async ({ tags, search, page }) => {
   let queryString = "";
 
   if (tags?.length > 0) {
@@ -11,7 +12,10 @@ export const getVideos = async ({ tags, search }) => {
     queryString += `&q=${search}`;
   }
 
+  queryString += `&_page=${page}&_limit=${PAGE_SIZE}`;
   const response = await axiosInstance.get(`/videos/?${queryString}`);
-
-  return response.data;
+  return {
+    videos: response.data,
+    totalCount: Number(response.headers["x-total-count"]),
+  };
 };

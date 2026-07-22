@@ -9,11 +9,11 @@ export default function Navbar() {
         <a href="/">
           <img className="h-10" src={logoImage} alt="Sadman React Learning" />
         </a>
-        <Link to="/">
-          <span className="text-xl font-bold text-slate-800 hover:text-blue-600">
+        <a href="/">
+          <span className="text-xl font-bold text-slate-800 hover:text-red-600">
             Sadman's Video Platform
           </span>
-        </Link>
+        </a>
         <div className="border border-slate-200 flex items-center bg-white h-10 px-5 rounded-lg text-sm ring-emerald-200">
           <Search />
         </div>
