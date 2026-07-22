@@ -1,10 +1,3 @@
-# We have HOSTED our project here
-https://sadman-video-app.netlify.app/
-
-Checkout to this branch to see the codes `https://github.com/sah-wtag/Video-Website-with-RTK/tree/video-rtk-production`
-
-Read the changelog [https://github.com/sah-wtag/Video-Website-with-RTK/tree/video-rtk-production](https://github.com/sah-wtag/Video-Website-with-RTK/tree/video-rtk-production#in-this-commit-we-have-updated-the-codebase)
-
 # We are setting our server
 
 1. We have the MOCK server folder in our root that will be our Backend data server which will serve us the API
